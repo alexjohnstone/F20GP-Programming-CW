@@ -28,7 +28,7 @@ public class PlayerCollision : MonoBehaviour {
         SceneManager.LoadScene( SceneManager.GetActiveScene().name);
         }
     }
-    //clear log function to remove the log 
+    //clear log function to remove the log, taken from https://answers.unity.com/questions/10580/editor-script-how-to-clear-the-console-output-wind.html
     public void ClearLog() 
     {
     var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
